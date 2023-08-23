@@ -165,7 +165,7 @@ header > .blocks-wrapper address ul li a {
 
   padding: 24px 0;
   display: inline-block;
-  color: #404bbf;
+  color: var(--navyblue);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 header > .blocks-wrapper nav ul li a:hover,
@@ -330,6 +330,7 @@ main .parts ul li > div {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid var(--light-slate);
 }
 /*parts*/
 main .team {
