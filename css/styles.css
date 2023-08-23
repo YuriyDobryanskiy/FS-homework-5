@@ -357,7 +357,6 @@ main .team ul li .person-title-block {
 }
 main .team ul li img,
 main .portfolio img {
-  margin-bottom: 32px;
   object-fit: inherit;
   width: 100%;
 }
@@ -373,7 +372,9 @@ main .team ul li p,
 main .portfolio .work p {
   letter-spacing: 0.32px;
 }
-
+main .team ul li p {
+  margin-bottom: 20px;
+}
 main .team ul li > div ul {
   display: flex;
   justify-content: center;
@@ -526,7 +527,10 @@ footer .wrapper-f > .social ul li a:hover,
 footer .wrapper-f > .social ul li a:focus {
   background-color: #31d0aa;
 }
-footer .wrapper-f > .social ul li a .icon {
+footer .wrapper-f > .social ul li a svg {
   fill: var(--cloud);
+}
+footer .wrapper-f > .social ul li a svg use {
+  scale: 140%;
 }
 /*footer*/
