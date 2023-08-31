@@ -19,5 +19,10 @@
 <symbol id="icon-sub" viewBox="0 0 24 24">
 <path fill="#f4f4fd" style="fill: var(--color1, #f4f4fd)" d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z"></path>
 </symbol>
+
+
+<symbol id="icon-sub2" viewBox="0 0 24 24">
+<path  d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z"></path>
+</symbol>
 </defs>
 </svg>

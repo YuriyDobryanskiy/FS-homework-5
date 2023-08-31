@@ -695,8 +695,6 @@ footer {
   margin-bottom: 16px;
 }
 
-.order-form {}
-
 .order-form>.input-container-block {
   margin-bottom: 8px;
 }
@@ -734,7 +732,7 @@ footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-container>.input-field:focus .icon {
+.input-field:focus+.icon {
   fill: #4D5AE5;
 }
 
@@ -758,7 +756,7 @@ footer {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-container-block>.textarea-field:focus {
+.textarea-field:focus {
   border-color: #4D5AE5;
 }
 
@@ -775,7 +773,7 @@ footer {
 
 .user-privacy .user-privacy-span {
   width: 16px;
-  width: 16px;
+  height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -785,7 +783,7 @@ footer {
   fill: transparent;
 }
 
-.terms-block>.form-label:checked span {
+.terms-block>.form-label:checked+.user-privacy span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
