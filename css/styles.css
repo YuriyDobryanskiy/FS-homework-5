@@ -575,21 +575,27 @@ footer {
 
 .wrapper-f>.subscribe input {
   border-radius: 4px;
-  border: 1px solid var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   padding: 8px 16px;
-  color: var(--white, #FFF);
+  color: var(--white);
   font-size: 12px;
   font-weight: var(--normal-font);
-  line-height: 2;
-  letter-spacing: 0.48px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: transparent;
-  min-width: 264px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+}
+
+.wrapper-f>.subscribe input::placeholder {
+  color: #ffffff;
 }
 
 .wrapper-f>.subscribe button {
   border-radius: 4px;
-  background: var(--iris, #4D5AE5);
+  background: var(--iris);
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
@@ -604,6 +610,12 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  min-width: 165px;
+  height: 40px;
+}
+
+.subscribe button svg {
+  margin-left: 16px;
 }
 
 /*footer*/
