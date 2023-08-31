@@ -504,7 +504,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 80px;
+  gap: 60px;
 }
 
 .wrapper-f>.wrapper {
