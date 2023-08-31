@@ -55,28 +55,28 @@
       <dialog class="order-popup" id="order-popup">
         <div class="close">X</div>
         <h5>Leave your contacts and we will call you back</h5>
-        <form action="" class="order-form">
-          <label for="name">Name<input type="text" name="name"></label>
-          <label for="phone">Phone<input type="tel" name="tel"></label>
+        <form action="#" class="order-form">
+          <label for="name">Name<input type="text" name="name" id="name"></label>
+          <label for="phone">Phone<input type="tel" name="tel" id="tel"></label>
 
           <!--icon-->
-          <label for="phone">Email
-            <div class="input-container">
-              <svg class="icon" width="24" height="24">
-                <use href="./images/icons2.svg#icon-sub"></use>
-              </svg>
-              <input type="email" name="email">
-            </div>
-          </label>
+          <label for="phone">Email</label>
+          <div class="input-container">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons2.svg#icon-sub"></use>
+            </svg>
+            <input type="email" name="email" id="email">
+          </div>
+
 
           <!--icon-->
 
           <label for="comment">Comment<textarea name="comment" id="comment" cols="30" rows="10"
               placeholder="Text input"></textarea></label>
-          <label for="terms"><input type="checkbox" name="terms" id="terms">
+          <div for="terms"><input type="checkbox" name="terms" id="terms">
             <p>I accept the terms and conditions of
               the <a href="#" target="_blank">Privacy Policy</a></p>
-          </label>
+          </div>
           <button type="submit" name="submit">Send</button>
         </form>
       </dialog>
@@ -390,7 +390,7 @@
       </div>
       <div class="subscribe">
         <p class="title">Subscribe</p>
-        <form action="" autocomplete="on">
+        <form action="#" autocomplete="on">
           <input type="email" name="email" placeholder="E-mail" maxlength="30">
           <button>Subscribe<svg class="icon" width="24" height="24">
               <use href="./images/icons2.svg#icon-sub"></use>
