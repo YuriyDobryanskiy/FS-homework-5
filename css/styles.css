@@ -632,9 +632,11 @@ footer {
 }
 
 .is-hidden {
+  /*
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  */
 }
 
 .order-popup>.wrapper {
@@ -774,6 +776,9 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .user-privacy .user-privacy-span {
@@ -811,8 +816,13 @@ footer {
   cursor: pointer;
   background-color: #4D5AE5;
   border: none;
+  margin: auto;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-form-button:hover {
+  background: var(--ocean);
 }
 
 /*order-popup*/
