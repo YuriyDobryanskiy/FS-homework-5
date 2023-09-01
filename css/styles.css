@@ -632,11 +632,11 @@ footer {
 }
 
 .is-hidden {
-  /*
+
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  */
+
 }
 
 .order-popup>.wrapper {
@@ -781,7 +781,7 @@ footer {
   gap: 8px;
 }
 
-.user-privacy .user-privacy-span {
+.user-privacy-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
