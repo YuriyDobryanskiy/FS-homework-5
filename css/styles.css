@@ -776,7 +776,7 @@ footer {
   color: var(--light-slate);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .user-privacy-span {
@@ -797,8 +797,10 @@ footer {
   fill: var(--cloud);
 }
 
-.user-privacy-link {
+.user-privacy-link,
+.user-privacy-link:hover {
   color: var(--iris);
+  text-decoration: underline;
 }
 
 .order-form-button {
