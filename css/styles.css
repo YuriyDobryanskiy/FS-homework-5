@@ -791,12 +791,17 @@ footer {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 6px;
 }
 
 .terms-block>.form-label:checked+.user-privacy span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
+}
+
+.user-privacy-link {
+  margin-left: 6px;
 }
 
 .user-privacy-link,
