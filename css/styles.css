@@ -600,7 +600,6 @@ footer {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border: 0;
   outline: 0;
   color: var(--white);
@@ -774,9 +773,9 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
-  display: flex;
+  /*display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 6px;*/
 }
 
 .user-privacy-span {
